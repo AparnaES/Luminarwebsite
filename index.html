@@ -20,16 +20,17 @@
 
         .button-solid {
             border: none;
+            background-color: rgb(175, 6, 209); border-radius: 30px; height: 50px; width: 150px;
         }
-
-        button-solid:focus {
+        #effect:hover{
             border: none;
-            outline: none;
-        }
-        #effect{
-            border: none;
-            /* padding: 10px; */
             box-shadow: 5px 10px 18px #888888;
+        }
+        strong:hover{
+            color: rebeccapurple;
+        }
+        .button-solid:hover{
+            background-color: white;
         }
       
     </style>
@@ -37,7 +38,7 @@
 </head>
 
 <body class="bg-light">
-    
+    <!-- div -->
     <div style="background-color: rgb(85, 24, 141); height: 40px;display: flex;
     justify-content: space-between;" class="ps-5 pe-5 me-2 container-fluid ">
         <div class="text-white mt-2"><a></a>Have any questions? +91 8086 651 651</div>
@@ -46,7 +47,7 @@
             <div class="text-white"><a><i class="fa-solid fa-envelope"></i></a>contact@luminartechnolab.com</div>
         </div>
     </div>
-
+<!-- navbar -->
 
     <div>
         <nav class="navbar navbar-expand-lg mt-0 bg-white" style="height: 70px;">
@@ -83,7 +84,7 @@
             </div>
         </nav>
     </div>
-
+<!-- carousal -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousal">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -98,8 +99,7 @@
                     <h1>Kerala's No.1 IT Finishioning School 100% Placement Assistance</h1>
                     <p>We at LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like
                         BIG DATA,Data Science,Machine Learning,PYTHON,software Testing. </p>
-                    <button style="background-color: rgb(175, 6, 209); border-radius: 30px; height: 50px; width: 150px;"
-                        class="button-solid text-white"><strong>VIEW COURSES</strong></button>
+                    <button class="button-solid text-white"><strong>VIEW COURSES</strong></button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -108,8 +108,7 @@
                     <h1>Data Science,ML & AI  Big Data - Hadoop & Spark Python  Data Science</h1>
                     <p>We LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like
                         Big Data,Hadoop,Spark,Data Science,Machine Learning,Deep Learning and AI.</p>
-                    <button style="background-color: rgb(175, 6, 209); border-radius: 30px;height: 50px; width: 150px;"
-                        class="button-solid text-white"><strong>VIEW COURSES</strong></button>
+                    <button class="button-solid text-white"><strong>VIEW COURSES</strong></button>
 
                 </div>
             </div>
@@ -186,14 +185,12 @@
                 Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala
                 are designed in such a way to match with the current industry requirements. Our Vision is to provide
                 100% placements to students those who enroll with us for our specialized courses..</p>
-            <button
-                style="background-color: rgb(175, 6, 209); border-radius: 30px; height: 50px; width: 150px; border: none;"
-                class="button-solid text-white"><strong>LEARN MORE</strong></button>
+            <button class="button-solid text-white"><strong>LEARN MORE</strong></button>
 
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12">
-            <img src="./image/gimg1.jpeg" alt="" style="padding: 10px;">
+            <img src="./image/gimg1.jpeg" alt="" style="padding: 10px;" class="w-100">
         </div>
     </div>
 </div>
